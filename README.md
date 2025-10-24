@@ -39,7 +39,17 @@ To explore city-level restaurant trends and identify areas with high restaurant 
 - Ensured ratings are valid numeric values  
 - Grouped data using `groupby()` to calculate:
   - Count of restaurants per city  
-  - Average rating per city  
+  - Average rating per city
+
+## 📦 Repository Contents
+
+| File Name | Description |
+| :--- | :--- |
+| `Task2_CityAnalysis.ipynb` | Jupyter Notebook containing full Python code and outputs. |
+| `Task2_CityAnalysis_Output_File.csv` | CSV output file containing Combined summary of restaurant counts and ratings. |
+| `top10_cities_restaurants.png` | Bar chart – Top 10 cities by restaurant count. |
+| `top10_cities_ratings.png` | Bar chart – Top 10 cities by average rating. |
+| `README.md` | This file summarizing the project and results. |
 
 
 ## 📈 Analysis Performed
@@ -47,6 +57,14 @@ To explore city-level restaurant trends and identify areas with high restaurant 
 ### 🔹 City with Most Restaurants
 ```python
 df.groupby('City')['Restaurant ID'].nunique()
+```
+### ⭐ Average Rating by City
+```python
+df.groupby('City')['Aggregate rating'].mean()
+```
+### 🏆 3. City with the Highest Average Rating
+```python
+# Sorted the average ratings and identified the top city.
 ```
 
 ---
