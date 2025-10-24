@@ -1,0 +1,38 @@
+            City  Restaurant_Count
+88     New Delhi              5473
+50       Gurgaon              1118
+89         Noida              1080
+43     Faridabad               251
+48     Ghaziabad                25
+17  Bhubaneshwar                21
+69       Lucknow                21
+51      Guwahati                21
+2      Ahmedabad                21
+5       Amritsar                21
+
+                 City  Average_Rating
+56         Inner City        4.900000
+107       Quezon City        4.800000
+73        Makati City        4.650000
+95         Pasig City        4.633333
+75   Mandaluyong City        4.625000
+15         Beechworth        4.600000
+67             London        4.535000
+123       Taguig City        4.525000
+116      Secunderabad        4.500000
+66            Lincoln        4.500000
+
+           City  Restaurant_Count  Average_Rating
+0     New Delhi              5473        2.438845
+1       Gurgaon              1118        2.651431
+2         Noida              1080        2.036204
+3     Faridabad               251        1.866932
+4     Ghaziabad                25        2.852000
+5  Bhubaneshwar                21        3.980952
+6       Lucknow                21        4.195238
+7      Guwahati                21        4.190476
+8     Ahmedabad                21        4.161905
+9      Amritsar                21        3.685714
+
+ City with most restaurants: New Delhi (5473)
+ City with highest average rating: Inner City (4.90)
